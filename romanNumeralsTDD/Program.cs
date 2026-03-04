@@ -1,3 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace  romanNumeralsTDD;
 
-Console.WriteLine("Hello, World!");
+public class Program
+{
+    static void Main(string[] args)
+    {
+        RomanTests tests = new RomanTests();
+        
+        tests.RunTests();
+    }
+}
