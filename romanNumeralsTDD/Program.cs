@@ -4,8 +4,8 @@ public class Program
 {
     static void Main(string[] args)
     {
-        RomanTests tests = new RomanTests();
-        
-        tests.RunTests();
+        int ten = 10;
+        string romanTen = RomanConverter.Convert(ten);
+        Console.WriteLine($"Roman number: {romanTen}");
     }
 }
